@@ -151,3 +151,50 @@ your code more neat and more readable.
     # Second comment
     # Third comment
 ```
+#### Multiline Comment
+Multiline comment uses a triple quotes
+```python
+"""This is a multiline comment
+it does take a lot of line 
+hello world
+""" 
+```
+
+#### Data types
+Of course, python also have several types of data types. 
+
+##### Number
+
+    * Integer (Int): Positives,Negatives and Zeros. Examples: -2, -1, 0, 1, 2 ...
+    * Float: Decimal Numbers. Examples: -2.1, -1.1, 0.0, 1.1, 2.1 ...
+    * Complex Numbers: Combination of numbers and some characters. Examples: 1 + j, 4 + 2k ...
+
+##### String 
+Collection of more characters that uses a single or double quotes. You can use triple quotes for more than one sentence.
+
+**## Examples:**
+```python
+'Carl'
+"Justin"
+"""Carl Justin Gamos"""
+```
+
+#### Booleans
+Data type that uses True or False(Always Uppercase).
+
+**## Examples:**
+```python
+    True # when the value is true
+    False # when the value is false
+```
+
+#### List
+It is a collection of an array similar to JavaScript, C++, and Java.
+
+**## Examples:**
+```python
+[0, 1, 2, 3, 4, 5] # a list of numbers
+['Sta Ana', 'Porac', 'Bacolor', 'Floridablanca'] # a list of strings
+['Carl', 30, True, 9.81] # a list of different data types
+```
+
