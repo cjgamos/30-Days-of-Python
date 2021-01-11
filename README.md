@@ -220,3 +220,77 @@ We will go in detail about each and every python data type.
 {3.14, 9.81, 2.7} # order is not important in set
 ```
 ### Checking Data types
+```python
+>>> type(10)
+<class 'int'>
+>>> type(3.14)
+<class 'float'>
+>>> type(1 +3j)
+<class 'complex'>
+>>> type('Carl')
+<class 'str'>
+>>> type([1,2,3])
+<class 'list'>
+>>> type({'name':'carl'})
+<class 'dict'>
+>>> type((1,2,3,4,5,6))
+<class 'tuple'>
+>>> type({0.1,3.1,4.15})
+<class 'set'>
+```
+### Python File
+Create a folder called 30DaysOfPython. Inside the folder create a file called helloworld.py and do all the things we did in the python interactive shell using the visual studio code or your text editor or IDE of your choice. Run the following code:
+```python
+# Day 1 - 30DaysOfPython Challenge
+
+print(2 + 3)             # addition(+)
+print(3 - 1)             # subtraction(-)
+print(2 * 3)             # multiplication(*)
+print(3 / 2)             # division(/)
+print(3 ** 2)            # exponential(**)
+print(3 % 2)             # modulus(%)
+print(3 // 2)            # Floor division operator(//)
+
+# Checking data types
+print(type(10))          # Int
+print(type(3.14))        # Float
+print(type(1 + 3j))      # Complex number
+print(type('Asabeneh'))  # String
+print(type([1, 2, 3]))   # List
+print(type({'name':'Asabeneh'})) # Dictionary
+print(type({9.8, 3.14, 2.7}))    # Set
+print(type((9.8, 3.14, 2.7)))    # Tuple
+```
+Open your terminal, then locate the file. In the terminal type *python helloworld.py* then press **Enter**.
+
+Congrats! 🎉 We just completed the day 1. More to come more to code and hopefully this keeps comming. I will try to motivate my self more to code more and not to slack off HAHAHA! Anyways always remember that what *Martin Fowler* said:
+>“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler
+
+## 💻 Exercises - Day 1
+### Exercise #1
+    1. Check the python version you are using be sure its python 3 and above.
+    2. Open the python interactive shell and do the following operations. The operands are 3 and 4. Check the example above
+        * Addition(+)
+        * Subtractions(-)
+        * Multiplication(*)
+        * Modulus(%)
+        * Division(/)
+        * Exponential(**)
+        * Floor Division Operator(//)
+    3. Write strings on the python interactive shell. The strings are the following:
+        * Your name
+        * Your family name
+        * Your country
+    4. Check the data types of the following data:
+        * 10
+        * 9.8
+        * 3.14
+        * 5 - 5k
+        * ['Hello', 'World', 'Python']
+        * Your name
+        * Your Family Name
+        * Your country
+### Exercise: #2
+    1. Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use print() when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
+
+🎉 Nice Keep Going!!🎉
