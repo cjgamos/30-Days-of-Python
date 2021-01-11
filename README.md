@@ -109,4 +109,30 @@ Sample code:
 2
 >>> 3 % 5 # Modulus(%) - finding the remainder
 3
+>>> 3 // 2 # Floor division operator(//) - it removes the remainder
+1
+>>> 3 ** 2 # Exponential Operator(**) 0 equivalent to 3^2 or 3 * 3
+```
 
+Now we learned how the python interactive shell works. Lets close the opened shell by writing *exit()* on the shell and open it again, lets practice how to write text
+on python shell.
+
+```python
+>>> 'Hello World' # write hello world string
+'Hello World'
+>>> "Hello World" # hello world with double quote
+'Hello World'
+>>> 'This is a text that we wrote'
+'This is a text that we wrote'
+>>> # We can also use a triple quotes if its more than one line('''''')
+>>> '''This is the use of triple quote if the text is more than one line'''
+'This is the use of triple quote if the text is more than one line'
+>>> # Lets continue using a text editor / code editor
+>>> exit()
+```
+Now lets proceed to the development environment. Download the VScode or your ideal code editor it can be IDE or just a normal text editor
+you can even code on a notepad if you want. Anyways lets start coding.
+
+# Basic Python
+
+## Python Syntax
