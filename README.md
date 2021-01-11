@@ -163,16 +163,16 @@ hello world
 #### Data types
 Of course, python also have several types of data types. 
 
-##### Number
+#### Number
 
     * Integer (Int): Positives,Negatives and Zeros. Examples: -2, -1, 0, 1, 2 ...
     * Float: Decimal Numbers. Examples: -2.1, -1.1, 0.0, 1.1, 2.1 ...
     * Complex Numbers: Combination of numbers and some characters. Examples: 1 + j, 4 + 2k ...
 
-##### String 
+#### String 
 Collection of more characters that uses a single or double quotes. You can use triple quotes for more than one sentence.
 
-**## Examples:**
+**Examples:**
 ```python
 'Carl'
 "Justin"
@@ -182,7 +182,7 @@ Collection of more characters that uses a single or double quotes. You can use t
 #### Booleans
 Data type that uses True or False(Always Uppercase).
 
-**## Examples:**
+**Examples:**
 ```python
     True # when the value is true
     False # when the value is false
@@ -191,10 +191,32 @@ Data type that uses True or False(Always Uppercase).
 #### List
 It is a collection of an array similar to JavaScript, C++, and Java.
 
-**## Examples:**
+**Examples:**
 ```python
 [0, 1, 2, 3, 4, 5] # a list of numbers
 ['Sta Ana', 'Porac', 'Bacolor', 'Floridablanca'] # a list of strings
 ['Carl', 30, True, 9.81] # a list of different data types
 ```
+#### Dictionary
+A python dictionary object is an unordered collection of data.
 
+**Examples:**
+```python
+{'name': 'Kepler', 'country':'Philippines', age:250, 'is_married':True}
+```
+#### Tuple
+Is an ordered collection of data types like list but cannot be modified. They are immutable.
+**Examples:**
+```python
+('Carl', 'Justin', 'Cinco', 'Gamos')
+```
+#### Set
+Is a collection of data types similar to list and tuple. set is not an ordered collection of items, it stores only unique items.
+
+We will go in detail about each and every python data type.
+
+**Examples:**
+```python
+{3.14, 9.81, 2.7} # order is not important in set
+```
+### Checking Data types
