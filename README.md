@@ -41,7 +41,7 @@ Python is a high-level programming language for general-purpose programming. Thi
 challenge myself to re-learn python for a month. I am going to use Python 3. I've broken down the topics into 30 days, where each day
 contains several topics, explanations, real-world examples and hands on exercises.
 
-This is just a learning purpose repository. Feel free to fork it.
+This is just for learning purposes repository. 
 
 ## Why Python ? 
 
@@ -83,7 +83,7 @@ maths first before we write any python code:
 
 In python we have the following additional operations:
 
-* 3 % 2 = 1-> means finding the remainder
+* 5 % 3 = 2-> means finding the remainder
 * 3 // 2 = 1 -> means removing the remainder
 
 Open the python interactive shell and lets write a comment at the very beginning of the shell. A *comment* is a part of the code that the python won't execute. 
@@ -93,3 +93,20 @@ start with a hash (#) symbol. Example of a comment:
 # This is a comment
 # Be sure to start with a hash
 ```
+
+Sample code:
+
+```python 
+>>> 1 + 1 # addition(+)
+2
+>>> 5 - 2 # subtractio(-)
+3
+>>> 2 * 4 # multiplication(*)
+8
+>>> 5 / 2 # division(/)
+2.5
+>>> 5 % 3 # Modulus(%) - finding the remainder
+2
+>>> 3 % 5 # Modulus(%) - finding the remainder
+3
+
