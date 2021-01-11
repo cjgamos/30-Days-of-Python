@@ -144,3 +144,10 @@ Indentation refers to the spaces at the beginning of a code line. Where in other
 ### Comments
 Comments can be used as a reminder, and a notes for you to easily understand your code. Python won't be running a comment, thus making
 your code more neat and more readable.
+
+#### Example of a comments:
+```python
+    # First comment
+    # Second comment
+    # Third comment
+```
