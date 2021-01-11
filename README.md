@@ -33,9 +33,9 @@
 29            | *Building API*
 30            | *Conclusions*
 
-## 📘 Day 1
+# 📘 Day 1
 
-### Introduction
+## Introduction
 
 Python is a high-level programming language for general-purpose programming. This is a 30 days python challenge, in where i am going to 
 challenge myself to re-learn python for a month. I am going to use Python 3. I've broken down the topics into 30 days, where each day
@@ -43,7 +43,7 @@ contains several topics, explanations, real-world examples and hands on exercise
 
 This is just a learning purpose repository. Feel free to fork it.
 
-### Why Python ? 
+## Why Python ? 
 
 Python was my very first language, and it is easy to learn and easy to use. It is used by various industries and companies (Google, Facebook, Instagram, Etc.).
 It has been used to develop web applications, system adminstration, desktop applications, and specially machine learning and data science. It is embraced in 
