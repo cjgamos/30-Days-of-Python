@@ -68,3 +68,26 @@ In order for you to exit the interactive shell write **exit()** command and pres
 ```python
 exit()
 ```
+>Now, we know how to open and exit the interactive shell. Python will give you results if you write scripts that python understands, if not it returns errors.
+
+Let's practice more how to use python interactive shell. Go to your terminal or command prompt(cmd) and write the word **python**.
+
+The python interactive shell is opened. Let's do some basic mathematic operations (addtion, subtraction, multiplication, division, modulus, expponential). Lets do some
+maths first before we write any python code:
+
+* 1 + 1 = 2
+* 5 - 2 = 3
+* 2 * 4 = 8 
+* 5 / 2  = 2.5
+* 3 ** 2 = 9
+
+In python we have the following additional operations:
+
+* 3 % 2 = 1-> means finding the remainder
+* 3 // 2 = 1 -> means removing the remainder
+
+Open the python interactive shell and lets write a comment at the very beginning of the shell. A *comment* is a part of the code that the python won't execute. 
+We can leave a reminder or text in our code to make our code more readable. Python won't run the comment part. In order for us to comment in python it should 
+start with a hash (#) symbol. Example of a comment: 
+> # This is a comment
+> # Be sure to start with a hash
