@@ -49,3 +49,13 @@ Python was my very first language, and it is easy to learn and easy to use. It i
 It has been used to develop web applications, system adminstration, desktop applications, and specially machine learning and data science. It is embraced in 
 Data science and Machine learning community. 
 
+## Python
+
+### Python Shell
+
+Python is an interpreted scripting language, so it doesn't need to be compiled. It executes the code line by line. When you enter the code, 
+it interprets the code and shows the result in the next line. Open your terminal or command prompt(cmd) and write:
+
+```python
+python
+```
