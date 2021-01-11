@@ -90,6 +90,6 @@ Open the python interactive shell and lets write a comment at the very beginning
 We can leave a reminder or text in our code to make our code more readable. Python won't run the comment part. In order for us to comment in python it should 
 start with a hash (#) symbol. Example of a comment: 
 ```
-#This is a comment
-#Be sure to start with a hash
+# This is a comment
+# Be sure to start with a hash
 ```
