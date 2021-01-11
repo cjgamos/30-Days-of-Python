@@ -268,29 +268,29 @@ Congrats! 🎉 We just completed the day 1. More to come more to code and hopefu
 
 ## 💻 Exercises - Day 1
 ### Exercise #1
-    1. Check the python version you are using be sure its python 3 and above.
-    2. Open the python interactive shell and do the following operations. The operands are 3 and 4. Check the example above
-        * Addition(+)
-        * Subtractions(-)
-        * Multiplication(*)
-        * Modulus(%)
-        * Division(/)
-        * Exponential(**)
-        * Floor Division Operator(//)
-    3. Write strings on the python interactive shell. The strings are the following:
-        * Your name
-        * Your family name
-        * Your country
-    4. Check the data types of the following data:
-        * 10
-        * 9.8
-        * 3.14
-        * 5 - 5k
-        * ['Hello', 'World', 'Python']
-        * Your name
-        * Your Family Name
-        * Your country
+1. Check the python version you are using be sure its python 3 and above.
+2. Open the python interactive shell and do the following operations. The operands are 3 and 4. Check the example above
+    * Addition(+)
+    * Subtractions(-)
+    * Multiplication(*)
+    * Modulus(%)
+    * Division(/)
+    * Exponential(**)
+    * Floor Division Operator(//)
+3. Write strings on the python interactive shell. The strings are the following:
+    * Your name
+    * Your family name
+    * Your country
+4. Check the data types of the following data:
+    * 10
+    * 9.8
+    * 3.14
+    * 5 - 5k
+    * ['Hello', 'World', 'Python']
+    * Your name
+    * Your Family Name
+    * Your country
 ### Exercise: #2
-    1. Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use print() when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
+1. Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use print() when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
 
 🎉 Nice Keep Going!!🎉
