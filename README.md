@@ -133,6 +133,6 @@ on python shell.
 Now lets proceed to the development environment. Download the VScode or your ideal code editor it can be IDE or just a normal text editor
 you can even code on a notepad if you want. Anyways lets start coding.
 
-# Basic Python
+## Basic Python
 
-## Python Syntax
+### Python Syntax
