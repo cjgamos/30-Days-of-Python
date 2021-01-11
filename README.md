@@ -36,3 +36,9 @@
 ## 📘 Day 1
 
 ### Introduction
+
+Python is a high-level programming language for general-purpose programming. This is a 30 days python challenge, in where i am going to 
+challenge myself to re-learn python for a month. I am going to use Python 3. I've broken down the topics into 30 days, where each day
+contains several topics, explanations, real-world examples and hands on exercises.
+
+This is just a learning purpose repository. Feel free to fork it.
