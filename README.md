@@ -136,3 +136,11 @@ you can even code on a notepad if you want. Anyways lets start coding.
 ## Basic Python
 
 ### Python Syntax
+A Python script can be written in python interactive shell or in the code editor. A python file has an extension of .py.
+
+### Python Indentation
+Indentation refers to the spaces at the beginning of a code line. Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important. Python uses indentation to indicate a block of code.
+
+### Comments
+Comments can be used as a reminder, and a notes for you to easily understand your code. Python won't be running a comment, thus making
+your code more neat and more readable.
