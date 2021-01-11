@@ -59,10 +59,12 @@ it interprets the code and shows the result in the next line. Open your terminal
 ```python
 python
 ```
-
 The python interactive shell is opened and it is waiting for you to write some codes. Lets write our very first code on the python shell.
-
 ```python
 >>> 2 + 3
 5
+```
+In order for you to exit the interactive shell write **exit()** command and press Enter.
+```python
+exit()
 ```
