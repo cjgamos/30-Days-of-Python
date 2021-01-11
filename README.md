@@ -89,5 +89,5 @@ In python we have the following additional operations:
 Open the python interactive shell and lets write a comment at the very beginning of the shell. A *comment* is a part of the code that the python won't execute. 
 We can leave a reminder or text in our code to make our code more readable. Python won't run the comment part. In order for us to comment in python it should 
 start with a hash (#) symbol. Example of a comment: 
-> # This is a comment
-> # Be sure to start with a hash
+> #This is a comment
+> #Be sure to start with a hash
