@@ -1,25 +1,3 @@
-# Day 2: 30 Days of Python Programming
-
-#Variables in python
-firstname = 'Carl'
-lastname = 'Gamos'
-fullname = 'Carl Justin Gamos'
-country = 'Philippines'
-city = 'Pampanga'
-age = 20
-year = 2021
-is_married = False
-skills = ['Python', 'C++', 'JavaScript', 'Java']
-personal_info = {
-    'firstname': 'Carl',
-    'lastname': 'Gamos',
-    'country': 'Philippines',
-    'city': 'Pampanga'
-}
-
-# Printing the values stored in the variables
-
-print('First Name:', firstname)
 print('First Name Length: ', len(firstname))
 print('Last Name:', lastname)
 print('Last Name Length: ', len(lastname))

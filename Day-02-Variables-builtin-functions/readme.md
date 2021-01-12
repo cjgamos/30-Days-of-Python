@@ -128,7 +128,7 @@ country = 'Philippines'
 city = 'Pampanga'
 age = 20
 is_married = False
-skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
+skills = ['Python', 'C++', 'JavaScript', 'Java']
 person_info = {
    'firstname':'Carl',
    'lastname':'Gamos',
