@@ -33,6 +33,7 @@
 29            | *Building API*
 30            | *Conclusions*
 
+
 # 📘 Day 1
 
 ## Introduction
@@ -263,7 +264,7 @@ print(type((9.8, 3.14, 2.7)))    # Tuple
 ```
 Open your terminal, then locate the file. In the terminal type *python helloworld.py* then press **Enter**.
 
-Congrats! 🎉 We just completed the day 1. More to come more to code and hopefully this keeps comming. I will try to motivate my self more to code more and not to slack off HAHAHA! Anyways always remember that what *Martin Fowler* said:
+Congrats! 🎉 We just completed the day 1. More to come more to code and hopefully this keeps coming. I will try to motivate my self more to code more and not to slack off HAHAHA! Anyways always remember that what *Martin Fowler* said:
 >“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler
 
 ## 💻 Exercises - Day 1
