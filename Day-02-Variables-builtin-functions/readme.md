@@ -1,4 +1,4 @@
-<h1 align="center">30 Days of Python</h1>
+<h1 align="center">🐍 30 Days Of Python</h1>
 
 [<< Day 1](https://github.com/cjgamos/30-Days-of-Python)
 
@@ -144,3 +144,21 @@ Let us use *print()* and *len()* built in functions. Print will take multiple ar
 print('Hello, World!')
 print('Hello',',', 'World','!') # it can take multiple arguments
 print(len('Hello, World!')) # it takes only one argument
+```
+Let's print and also find the length of the variable.
+
+**Example:**
+```python
+# Printing the values stored in the variables
+
+print('First name:', first_name)
+print('First name length:', len(first_name))
+print('Last name: ', last_name)
+print('Last name length: ', len(last_name))
+print('Country: ', country)
+print('City: ', city)
+print('Age: ', age)
+print('Married: ', is_married)
+print('Skills: ', skills)
+print('Person information: ', person_info)
+```
