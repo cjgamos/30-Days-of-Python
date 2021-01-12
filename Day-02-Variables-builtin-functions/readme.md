@@ -310,3 +310,5 @@ Number data types in python:
 
 6. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 7. Run help('keywords') in python shell or in your file to check for the reserved words
+
+[<< Day 1](https://github.com/cjgamos/30-Days-of-Python) | [Day 3 >>](https://github.com/cjgamos/30-Days-of-Python)
