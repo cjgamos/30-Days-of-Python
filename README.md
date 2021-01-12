@@ -205,7 +205,7 @@ A python dictionary object is an unordered collection of data.
 
 **Examples:**
 ```python
-{'name': 'Kepler', 'country':'Philippines', age:250, 'is_married':True}
+{'name': 'Kepler', 'country':'Philippines', age:20, 'is_married':False}
 ```
 #### Tuple
 Is an ordered collection of data types like list but cannot be modified. They are immutable.

@@ -126,7 +126,7 @@ first_name = 'Carl'
 last_name = 'Gamos'
 country = 'Philippines'
 city = 'Pampanga'
-age = 250
+age = 20
 is_married = False
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
@@ -162,3 +162,128 @@ print('Married: ', is_married)
 print('Skills: ', skills)
 print('Person information: ', person_info)
 ```
+Variables can also be declared in one line.
+
+**Example:**
+```python
+first_name, last_name, country, age, is_married = 'Carl', 'Gamos', 'Philippines', 20, False
+
+print(first_name, last_name, country, age, is_married)
+print('First name:', first_name)
+print('Last name: ', last_name)
+print('Country: ', country)
+print('Age: ', age)
+print('Married: ', is_married)
+```
+Getting user input using the *input()* function. Let's assign the data we got from a user into first_name and age variables. Example:
+```python
+first_name = input('What is your name: ')
+age = input('How old are you? ')
+
+print(first_name)
+print(age)
+```
+## Data Types
+There are a ton of data types in python. To identify the data type use the *type* built-in function. I suggest to focus on understanding the different data types very well. When it comes to programming, it is all about data type.
+
+## Checking Data types and Casting
+* Check Data types: To check the data type of a certain data or variable we use the *type* **Example:**
+```python
+# Different python data types
+# Let's declare variables with various data types
+
+first_name = 'Carl'     # str
+last_name = 'Gamos'       # str
+country = 'Philippines'         # str
+city= 'Pampanga'            # str
+age = 20                   # int, it is not my real age, don't worry about it
+
+# Printing out types
+print(type('Asabeneh'))     # str
+print(type(first_name))     # str
+print(type(10))             # int
+print(type(3.14))           # float
+print(type(1 + 1j))         # complex
+print(type(True))           # bool
+print(type([1, 2,3,4]))     # list
+print(type({'name':'Carl','age':19, 'is_married':False}))    # dict
+print(type((1,2)))                                              # tuple
+print(type(zip([1,2],[3,4])))                                   # set
+```
+* Casting: Casting is converting one data type to another data type. We use *int(), float(), str(), and list()*. When we do an arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with string, the number should be converted to a string first.
+```python
+# int to float
+
+num_int = 10
+print('num_int',num_int)         # 10
+num_float = float(num_int)
+print('num_float:', num_float)   # 10.0
+
+# float to int
+
+gravity = 9.81
+print(int(gravity))             # 9
+
+# int to str
+num_int = 10
+print(num_int)                  # 10
+num_str = str(num_int)
+print(num_str)                  # '10'
+
+# str to int
+num_str = '10.6'
+print('num_int', int(num_str))      # 10
+print('num_float', float(num_str))  # 10.6
+
+# str to list
+first_name = 'Carl'
+print(first_name)
+print(first_name)                    # 'Asabeneh'
+first_name_to_list = list(first_name)
+print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
+```
+## Numbers
+Number data types in python:
+1. Integers: Integer(negative, zero and positive) numbers Example: ... -3, -2, -1, 0, 1, 2, 3 ...
+
+2. Floating Point Numbers(Decimal numbers) Example: ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+
+3. Complex Numbers Example: 1 + j, 2 + 4j, 1 - 1j
+
+💯 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
+
+## 💻 Exercises - Day 2
+
+### Exercise #1
+1. Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py
+2. Write a python comment saying 'Day 2: 30 Days of python programming'
+3. Declare a first name variable and assign a value to it
+4. Declare a last name variable and assign a value to it
+5. Declare a full name variable and assign a value to it
+6. Declare a country variable and assign a value to it
+7. Declare a city variable and assign a value to it
+8.Declare an age variable and assign a value to it
+9.Declare a year variable and assign a value to it
+10.Declare a variable is_married and assign a value to it
+11.Declare a variable is_true and assign a value to it
+12.Declare a variable is_light_on and assign a value to it
+13.Declare multiple variable on one line
+
+### Exercise #2
+1. Check the data type of all your variables using type() built-in function
+2. Using the len() built-in function find the length of your first name
+3. Compare the length of your first name and your last name
+4. Declare 5 as num_one and 4 as num_two
+    I. Add num_one and num_two and assign the value to a variable _total
+    II. Subtract num_two from num_one and assign the value to a variable _diff
+    III. Multiply num_two and num_one and assign the value to a variable _product
+Divide num_one by num_two and assign the value to a variable _division
+Use modulus division to find num_two divided by num_one and assign the value to a variable _remainder
+Calculate num_one to the power of num_two and assign the value to a variable _exp
+Find floor division of num_one by num_two and assign the value to a variable _floor_division
+The radius of a circle is 30 meters.
+Calculate the area of a circle and assign the value to a variable area_of_circle
+Calculate the circumference of a circle and assign the value to a variable circum_of_circle
+Take radius as user input and calculate the area.
+Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+Run help('keywords') in python shell or in your file to check for the reserved words
