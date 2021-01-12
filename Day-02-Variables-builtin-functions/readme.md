@@ -262,12 +262,12 @@ Number data types in python:
 5. Declare a full name variable and assign a value to it
 6. Declare a country variable and assign a value to it
 7. Declare a city variable and assign a value to it
-8.Declare an age variable and assign a value to it
-9.Declare a year variable and assign a value to it
-10.Declare a variable is_married and assign a value to it
-11.Declare a variable is_true and assign a value to it
-12.Declare a variable is_light_on and assign a value to it
-13.Declare multiple variable on one line
+8. Declare an age variable and assign a value to it
+9. Declare a year variable and assign a value to it
+10. Declare a variable is_married and assign a value to it
+11. Declare a variable is_true and assign a value to it
+12. Declare a variable is_light_on and assign a value to it
+13. Declare multiple variable on one line
 
 ### Exercise #2
 1. Check the data type of all your variables using type() built-in function
@@ -311,4 +311,4 @@ Number data types in python:
 6. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
 7. Run help('keywords') in python shell or in your file to check for the reserved words
 
-[<< Day 1](https://github.com/cjgamos/30-Days-of-Python) | [Day 3 >>](https://github.com/cjgamos/30-Days-of-Python)
+[<< Day 1](https://github.com/cjgamos/30-Days-of-Python) | [Day 3 >>](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-03-Operators)
