@@ -1,5 +1,7 @@
 # 🐍 30 Days Of Python
 
+[Day 2 >>](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-02-Variables-builtin-functions)
+
 **Days**      | **Topics**    
 --------------|-----------
 01            | *Introduction*
