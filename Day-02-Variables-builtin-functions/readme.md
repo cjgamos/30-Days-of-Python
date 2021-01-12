@@ -274,16 +274,39 @@ Number data types in python:
 2. Using the len() built-in function find the length of your first name
 3. Compare the length of your first name and your last name
 4. Declare 5 as num_one and 4 as num_two
+
     I. Add num_one and num_two and assign the value to a variable _total
+
+
     II. Subtract num_two from num_one and assign the value to a variable _diff
+
+
     III. Multiply num_two and num_one and assign the value to a variable _product
-Divide num_one by num_two and assign the value to a variable _division
-Use modulus division to find num_two divided by num_one and assign the value to a variable _remainder
-Calculate num_one to the power of num_two and assign the value to a variable _exp
-Find floor division of num_one by num_two and assign the value to a variable _floor_division
-The radius of a circle is 30 meters.
-Calculate the area of a circle and assign the value to a variable area_of_circle
-Calculate the circumference of a circle and assign the value to a variable circum_of_circle
-Take radius as user input and calculate the area.
-Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-Run help('keywords') in python shell or in your file to check for the reserved words
+
+
+    IV. Divide num_one by num_two and assign the value to a variable _division
+
+
+    V. Use modulus division to find num_two divided by num_one and assign the value to a variable _remainder
+
+
+    VI. Calculate num_one to the power of num_two and assign the value to a variable _exp
+
+    
+    VII. Find floor division of num_one by num_two and assign the value to a variable _floor_division
+
+
+5. The radius of a circle is 30 meters.
+
+
+    I. Calculate the area of a circle and assign the value to a variable area_of_circle
+
+
+    II. Calculate the circumference of a circle and assign the value to a variable circum_of_circle
+
+
+    III. Take radius as user input and calculate the area.
+
+
+6. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+7. Run help('keywords') in python shell or in your file to check for the reserved words
