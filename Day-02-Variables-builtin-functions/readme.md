@@ -109,3 +109,38 @@ current_year_2019
 num1
 num2
 ```
+Invalid variable names are:
+```
+first-name
+num-1
+1num
+```
+When we assign a certain data type to a variable, it is called variable declaration. For instance in the example below my first name is assigned to a variable first_name. The equal sign is an assignment operator. Assigning means storing data in the variable.
+
+*Example:*
+
+```python
+# Variables in Python
+
+first_name = 'Carl'
+last_name = 'Gamos'
+country = 'Philippines'
+city = 'Pampanga'
+age = 250
+is_married = False
+skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
+person_info = {
+   'firstname':'Carl',
+   'lastname':'Gamos',
+   'country':'Philippines',
+   'city':'Pampanga'
+   }
+```
+Let us use *print()* and *len()* built in functions. Print will take multiple arguments and print out the string that is inside the parenthesis.
+
+**Example:**
+
+```python
+print('Hello, World!')
+print('Hello',',', 'World','!') # it can take multiple arguments
+print(len('Hello, World!')) # it takes only one argument
