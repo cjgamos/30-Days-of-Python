@@ -1,4 +1,4 @@
-# 🐍 30 Days Of Python
+<h1 align="center">🐍 30 Days Of Python</h1>
 
 [Day 2 >>](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-02-Variables-builtin-functions)
 
