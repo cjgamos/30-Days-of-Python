@@ -87,7 +87,25 @@ Now that we got ourselves familiarized with some built-in functions. Let's do on
 ## Variables
 Variables are the case of the computer memory that stores data. Mnemonic variables are recommended to use in many programming languages. A variable refers to a memory address in which the data is stored. Numbers at the begining, special characters, hyphen are not allowed when naming the variables, but they can have a short name (like a,b,c), though it is highly recommended to use a descriptive names (like firstname, lastname, age). Variable Naming Rules in Python: 
 
-    * A variable name must start with a letter or the underscore character
-    * A variable name cannot start with a number
-    * A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-    * Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME are different variables)
+* A variable name must start with a letter or the underscore character
+* A variable name cannot start with a number
+* A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+* Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME are different variables)
+
+Valid variable names are: 
+```
+firstname
+lastname
+age
+country
+city
+first_name
+last_name
+capital_city
+_if # if we want to use reserved word as a variable
+year_2019
+year2019
+current_year_2019
+num1
+num2
+```
