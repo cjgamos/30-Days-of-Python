@@ -1,6 +1,6 @@
 <h1 align="center">🐍 30 Days Of Python: Day 3 - Operators</h1>
 
-[<< Day 2](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-02-Variables-builtin-functions) | [Day 4 >>](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-03-Operators)
+[<< Day 2](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-02-Variables-builtin-functions) | [Day 4 >>](https://github.com/cjgamos/30-Days-of-Python/blob/main/Day-04-Strings)
 
 <p align="center">
     <img src="https://github.com/cjgamos/30-Days-of-Python/blob/main/img/729px-Python_logo_and_wordmark.svg.png">
@@ -257,4 +257,4 @@ You have lived for 3153600000 seconds.
 ```
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 2](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-02-Variables-builtin-functions) | [Day 4 >>](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-03-Operators)
+[<< Day 2](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-02-Variables-builtin-functions) | [Day 4 >>](https://github.com/cjgamos/30-Days-of-Python/blob/main/Day-04-Strings)
