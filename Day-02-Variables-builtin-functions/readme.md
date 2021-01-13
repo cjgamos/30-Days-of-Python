@@ -1,4 +1,4 @@
-<h1 align="center">🐍 30 Days Of Python</h1>
+<h1 align="center">🐍 30 Days Of Python: Day 2 - Variables and Built-in Functions</h1>
 
 [<< Day 1](https://github.com/cjgamos/30-Days-of-Python) | [Day 3 >>](https://github.com/cjgamos/30-Days-of-Python/tree/main/Day-03-Operators)
 
