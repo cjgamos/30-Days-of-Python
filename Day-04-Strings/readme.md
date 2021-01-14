@@ -441,5 +441,31 @@ print(challenge.startswith('thirty')) # False
     * thirty_days_of_python
 32. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
 33. Use the new line escape sequence to separate the following sentences.
+```python
+I am enjoying this challenge.
+I just wonder what is next.
+```
+34. Use a tab escape sequence to write the following lines.
+```
+Name      Age     Country
+Asabeneh  250     Finland
+```
+35. Use the string formating method to display the following:
+```
+radius = 10
+area = 3.14 * radius ** 2
+The area of a cricle with radius 10 is 314 meters square.
+```
+36. Make the following using string formating methods:
+```
+8 + 6 = 14
+8 - 6 = 2
+8 * 6 = 48
+8 / 6 = 1.33
+8 % 6 = 2
+8 // 6 = 1
+8 ** 6 = 262144
+```
+
 
 
