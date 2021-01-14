@@ -113,4 +113,114 @@ formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, languag
 print(formated_string)
 a = 4
 b = 3
+
+print('{} + {} = {}'.format(a, b, a + b))
+print('{} - {} = {}'.format(a, b, a - b))
+print('{} * {} = {}'.format(a, b, a * b))
+print('{} / {} = {:.2f}'.format(a, b, a / b)) # limits it to two digits after decimal
+print('{} % {} = {}'.format(a, b, a % b))
+print('{} // {} = {}'.format(a, b, a // b))
+print('{} ** {} = {}'.format(a, b, a ** b))
+
+# output
+4 + 3 = 7
+4 - 3 = 1
+4 * 3 = 12
+4 / 3 = 1.33
+4 % 3 = 1
+4 // 3 = 1
+4 ** 3 = 64
+
+# Strings  and numbers
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+formated_string = 'The area of a cricle with a radius {} is {:.2f}.'.format(radius, area) # 2 digits after decimal
+print(formated_string)
+```
+### String Interpolation / f-Strings (Python 3.6+)
+Another new string formating is string interpolation, f-strings. Strings start with f and we can inject the data in their corresponding positions.
+```python
+a = 4
+b = 3
+print(f'{a} + {b} = {a +b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {a / b:.2f}')
+print(f'{a} % {b} = {a % b}')
+print(f'{a} // {b} = {a // b}')
+print(f'{a} ** {b} = {a ** b}')
+```
+## Python Strings as Sequences of Characters
+Python strings are sequences of characters, and share their basic methods of access with other Python ordered sequences of objects – lists and tuples. The simplest way of extracting single characters from strings (and individual members from any sequence) is to unpack them into corresponding variables.
+
+### Unpacking Characters
+```
+language = 'Python'
+a,b,c,d,e,f = language # unpacking sequence characters into variables
+print(a) # P
+print(b) # y
+print(c) # t
+print(d) # h
+print(e) # o
+print(f) # n
+```
+### Accessing Characters in Strings by Index   
+In programming counting starts from zero. Therefore the first letter of a string is at zero index and the last letter of a string is the length of a string minus one.
+
+```
+['P', 'y', 't', 'h', 'o', 'n']
+  0    1    2    3    4    5 
+```
+```python
+language = 'Python'
+first_letter = language[0]
+print(first_letter) # P
+second_letter = language[1]
+print(second_letter) # y
+last_index = len(language) - 1
+last_letter = language[last_index]
+print(last_letter) # n
+```
+If we want to start from right end we can use negative indexing. -1 is the last index.
+```python
+language = 'Python'
+last_letter = language[-1]
+print(last_letter) # n
+second_last = language[-2]
+print(second_last) # o
+```
+### Slicing Python Strings
+In python we can slice strings into substrings.
+```python
+language = 'Python'
+first_three = language[0:3] # starts at zero index and up to 3 but not include 3
+last_three = language[3:6]
+print(last_three) # hon
+# Another way
+last_three = language[-3:]
+print(last_three)   # hon
+last_three = language[3:]
+print(last_three)   # hon
+```
+### Reversing a string
+We can easily reverse strings in python.
+```python
+greeting = 'Hello, World!'
+print(greeting[::-1]) # !dlroW ,olleH
+```
+### Skipping Characters While Slicing
+It is possible to skip characters while slicing by passing step argument to slice method.
+```python
+language = 'Python'
+pto = language[0,6:2] #
+print(pto) # Pto
+```
+## String Methods
+There are many string methods which allow us to format strings. See some of the string methods in the following example:
+
+* capitalize(): Converts the first character of the string to capital Letter
+```python
+challenge = 'thirty days of python'
+print(challenge.capitalize()) # 'Thirty days of python'
 ```
