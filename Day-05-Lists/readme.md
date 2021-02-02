@@ -295,3 +295,250 @@ fruits.clear()
 print(fruits)       # []
 ```
 
+## Copying a List
+
+It is possible to copy a list by reassigning it to a new variable in the following way: list2 = list1. Now, list2 is a reference of list1, any changes we make in list2 will also modify the original, list2. But there are lots of case in which we do not like to modify the original instead we like to have a different copy. One of way avoid the problem above is using copy().
+
+```python
+# syntax
+lst = ['item1', 'item2']
+lst_copy = lst.copy()
+```
+```python
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits_copy = fruits.copy()
+print(fruits_copy)       # ['banana', 'orange', 'mango', 'lemon']
+```
+## Joining Lists
+
+There are several ways to join, or concatenate, two or more lists in Python.
+
+* Plus Operator(+)
+
+```python
+# syntax
+list3 = list1 + list2
+```
+```python
+positive_numbers = [1, 2, 3, 4, 5]
+zero = [0]
+negative_numbers = [-5,-4,-3,-2,-1]
+integers = negative_numbers + zero + positive_numbers
+print(integers)
+fruits = ['banana', 'orange', 'mango', 'lemon']
+vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+fruits_and_vegetables = fruits + vegetables
+print(fruits_and_vegetables )
+```
+```python
+# output
+[-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+['banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+```
+
+* Joining using extend() method
+
+```python
+# syntax
+list1 = ['item1', 'item2']
+list2 = ['item3', 'item4', 'item5']
+list1.extend(list2)
+```
+```python
+num1 = [0, 1, 2, 3]
+num2= [4, 5,6]
+num1.extend(num2)
+print('Numbers:', num1)
+negative_numbers = [-5,-4,-3,-2,-1]
+positive_numbers = [1, 2, 3,4,5]
+zero = [0]
+
+negative_numbers.extend(zero)
+negative_numbers.extend(positive_numbers)
+print('Integers:', negative_numbers)
+fruits = ['banana', 'orange', 'mango', 'lemon']
+vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+fruits.extend(vegetables)
+print('Fruits and vegetables:', fruits )
+```
+```python
+Numbers: [0, 1, 2, 3, 4, 5, 6]
+Integers: [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+Fruits and vegetables: ['banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+```
+## Counting Items in a List
+
+The count() method returns the number of times an item appears in a list:
+
+```python
+# syntax
+lst = ['item1', 'item2']
+lst.count(item)
+```
+```python
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.count('orange'))   # 1
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+print(ages.count(24))           # 3
+```
+## Finding Index of an Item
+
+The index() method returns the index of an item in the list:
+
+```python
+# syntax
+lst = ['item1', 'item2']
+lst.index(item)
+```
+```python
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.index('orange'))   # 1
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+print(ages.index(24))           # 2, the first occurrence
+```
+
+## Reversing a List
+
+The reverse() method reverses the order of a list.
+
+```python
+# syntax
+lst = ['item1', 'item2']
+lst.reverse()
+```
+```python
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.reverse()
+print(fruits.reverse())
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+ages.reverse()
+print(ages.reverse())
+```
+```python
+['lemon', 'mango', 'orange', 'banana']
+[24, 25, 24, 26, 25, 24, 19, 22]
+```
+## Sorting List Items
+
+To sort lists we can use sort() method or sorted() built-in functions. The sort() method reorders the list items in ascending order and modifies the original list. If an argument of sort() method reverse is equal to true, it will arrange the list in descending order.
+
+* sort(): this method modifies the original list
+
+```python
+# syntax
+lst = ['item1', 'item2']
+lst.sort()                # ascending
+lst.sort(reverse=True)    # descending
+```
+**Example:**
+
+```python
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.sort()
+print(fruits)             # sorted in alphabetical order
+fruits.sort(reverse=True)
+print(fruits)
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+ages.sort(reverse=True)
+print(ages)
+```
+```python
+['banana', 'lemon', 'mango', 'orange']
+['orange', 'mango', 'lemon', 'banana']
+[19, 22, 24, 24, 24, 25, 25, 26]
+[26, 25, 25, 24, 24, 24, 22, 19]
+```
+
+sorted(): returns the ordered list without modifying the original Example:
+
+```python
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(sorted(fruits))     # ['banana', 'lemon', 'mango', 'orange']
+# Reverse order
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits = sorted(fruits,reverse=True)
+print(fruits)     # ['orange', 'mango', 'lemon', 'banana']
+```
+
+# 💻 Exercises: Day 5
+
+## Exercises: Level 1
+
+1. Declare an empty list
+
+2. Declare a list with more than 5 items
+
+3. Find the length of your list
+
+4. Get the first item, the middle item and the last item of the list
+
+5. Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+
+6. Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+
+7. Print the list using print()
+
+8. Print the number of companies in the list
+
+9. Print the first, middle and last company
+
+10. Print the list after modifying one of the companies
+
+11. Add an IT company to it_companies
+
+12. Insert an IT company in the middle of the companies list
+
+13. Change one of the it_companies names to uppercase (IBM excluded!)
+
+14. Join the it_companies with a string '#;  '
+
+15. Check if a certain company exists in the it_companies list.
+
+16. Sort the list using sort() method
+
+17. Reverse the list in descending order using reverse() method
+
+18. Slice out the first 3 companies from the list
+
+19. Slice out the last 3 companies from the list
+
+20. Slice out the middle IT company or companies from the list
+
+21. Remove the first IT company from the list
+
+22. Remove the middle IT company or companies from the list
+
+23. Remove the last IT company from the list
+
+24. Remove all IT companies from the list
+
+25. Destroy the IT companies list
+
+26. Join the following lists:
+
+```python
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+```
+27. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+
+## Exercises: Level 2
+
+1. The following is a list of 10 students ages:
+
+```python
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+```
+
+* Sort the list and find the min and max age
+* Add the min age and the max age again to the list
+* Find the median age (one middle item or two middle items divided by two)
+* Find the average age (sum of all items divided by their number )
+* Find the range of the ages (max minus min)
+* Compare the value of (min - average) and (max - average), use abs() method
+
+1. Find the middle country(ies) in the [countries list](https://github.com/cjgamos/30-Days-of-Python/blob/main/Day-05-Lists/countries.py)
+2. Divide the countries list into two equal lists if it is even if not one more country for the first half.
+3. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
